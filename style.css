@@ -1,0 +1,345 @@
+* {
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+}
+
+.flex-container div {
+    max-height: 127px;
+    width: 100%;
+    display: inherit;
+}
+
+.head1 {
+    background-color:#ffcb04;
+    height: 127px;
+    flex-grow: 2;
+    width: 418px;
+
+}
+
+.head2 {
+    background-color:#ffcb04;
+    height: 127px;
+    flex-grow: 1;
+}
+
+.logo img {
+    max-height: 80px;
+    align-self: center;
+}
+
+.s1 a {
+    background-color: black;
+    color: #ffcb04;
+    text-decoration: none;
+    height: 45px;
+    width: 313px;
+    align-self: center;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 24px;
+    font-family: 'Noto Sans Miao', sans-serif;
+    margin-left: 800px; 
+}
+
+.s2  {
+    display: flex;
+    border: 1px solid black;
+    height: 50px;
+    align-self: center;
+    margin-left: 30px;
+}
+
+.s2 a {
+    width: 156px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Noto Sans Miao', sans-serif;
+    text-decoration: none;
+}
+
+.lang img {
+    width: 20px;
+    margin-left: 15px;
+}
+
+#dil {
+    background-color: transparent;
+    font-size: 28px;
+    border-color: #ffcb04;
+    margin-left: 3px;
+    font-family: inherit;
+}
+
+.head3 {
+    background-color:#ffcb04;
+    height: 127px;
+    flex-grow: 2;
+    width: 418px;
+}
+
+.flex-container-2 {
+    background-color: #333;
+    width: 100%;
+    height: 106px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.flex-container-2 div {
+    width: 100%;
+    height: 106px;
+    background-color: inherit;
+    display: flex;
+    margin-left: 4rem;
+}
+
+.label1 {
+align-items: center;
+}
+
+.label1 label {
+    align-self: center;
+    display: flex;
+    flex-grow: 1;
+    
+
+}
+
+::placeholder {
+    font-style: bold;
+    color: black;
+}
+#AD {
+    width: 510px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: start;
+    font-family: 'Noto Sans Miao', sans-serif;
+    padding-left: 1rem;
+    font-size: 22px;
+    margin-left: 25rem;
+    font-weight: bold;
+}
+
+.label2 label { 
+    display: inline-flex;
+    flex-grow: 1;
+    margin-left: 4rem;
+}
+
+#mail {
+    width: 510px;
+    height: 50px;
+    align-self: center;
+    border: 1px solid black;
+    text-align: start;
+    font-family: 'Noto Sans Miao', sans-serif;
+    font-size: 22px;
+    padding-left: 1rem;
+    margin-left: -6rem;
+    font-weight: bold;
+
+}
+
+.sign2 {
+    display: inline-flex;
+    flex-grow: 1;
+}
+
+.sign2 a {
+    background-color: #ffcb04;
+    height: 50px;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    width: 502px;
+    font-size: 23px;
+    padding-top: 5px;
+    text-align: center;
+    font-family:'Noto Sans Miao', sans-serif;
+    position: relative;
+    right: 16rem;
+}
+
+
+.container-3  {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-3 img {
+    margin-top: 15px;
+    width: 1675px;
+    height: 850px;
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.poster a {
+    text-decoration: none;
+    padding: 10px;
+}
+.pic1 {
+    width: 388.5px;
+    height: 582.5px;
+    margin-top: 30px;
+}
+
+.poster div:nth-child(2) {
+ color: white;
+ font-size: 25px;
+ font-family: inherit;
+}
+
+.play {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+
+}
+
+.text {
+    color:white;
+    font-family: 'Inter Bold';
+    font-size: 23px;
+    margin-top: 12px;
+
+}
+
+
+.posterx {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    margin-left: 435px;
+}
+
+.posterx a {
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.textx {
+    color:white;
+    font-family: 'Inter Bold';
+    font-size: 23px;
+    margin-top: 12px;
+    text-align: center;
+    display: block;
+}
+
+.png {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.png img {
+    margin-top: 50px;
+    width: 320px;
+    height: 143px;
+
+}
+
+.comment    {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.comment h1 {
+
+
+        display: block;
+        height: auto;
+        text-align: center;
+        width: 47%;
+        font-weight: bolder;
+        font-size: 46px;
+        color: white;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+nav div{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    margin-top: 35px; 
+}
+
+.icon {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icon div {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.help   {
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.help ul {
+    width: 70%;
+    background-color: #221f1f;
+    height: 75px;
+    margin-top: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.help ul li {
+    font-size: 45px;
+    color: #ffcb04;
+    font-family: 'Inter Bold';
+    padding-top: 10px;
+
+}
